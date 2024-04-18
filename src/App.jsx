@@ -8,6 +8,7 @@ import AboutUs from "./components/aboutUs.jsx";
 import Testimonial from "./components/testimonial.jsx";
 import Blog from "./components/blog.jsx";
 import Footer from "./components/footer.jsx";
+import Caroussel from "./components/swiper.jsx";
 
 function App() {
     return(

@@ -3,7 +3,7 @@ import {GoArrowRight} from "react-icons/go";
 
 export default function Portfolio(){
     return(
-        <div className={'text-center text-white bg-[#000816] px-[125px] py-[80px]'}>
+        <div className={'text-center text-white bg-[#000816] px-[25px] md:px-[125px] py-[80px]'}>
             <span className={'text-[24px]'}>Porfolio</span><br/>
             <span className={'font-semibold text-[36px] -mt-[50px]'}>Our previous works</span>
             <div className={'flex flex-wrap  mt-[80px] justify-between'}>

@@ -12,7 +12,7 @@ export default function Navbar(){
                 </a>
                 <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                     <button type="button"
-                            className="text-white text-[20px] bg-[#000816] h-[48px] w-[180px] border-white border-[2px] rounded-lg  px-4 py-2 text-center">
+                            className="text-white text-[20px] bg-[#000816] h-[48px] w-[150px] md:w-[180px] border-white border-[2px] rounded-lg  px-4 py-2 text-center">
                         Talk to us
                     </button>
                     <button data-collapse-toggle="navbar-sticky" type="button"
