@@ -2,7 +2,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 export default function Banner(){
     return(
-        <div className={'pt-[200px] bg-[#000816] text-white pb-[80px]'}>
+        <div className={'pt-[110px] bg-[#000816] text-white pb-[80px]'}>
             <div className={'flex flex-wrap items-center px-[25px] md:px-[125px] justify-between'}>
                 <div className={'w-[670px] md:h-[531px]'}>
                     <h1 className={'font-medium text-[50px] md:text-[64px]'}>#1 Worldwide Digital Solution Agency</h1>
