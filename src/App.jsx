@@ -8,20 +8,14 @@ import AboutUs from "./components/aboutUs.jsx";
 import Testimonial from "./components/testimonial.jsx";
 import Blog from "./components/blog.jsx";
 import Footer from "./components/footer.jsx";
-import Caroussel from "./components/swiper.jsx";
+import ResponsiveDemo from "./components/caroussel.jsx";
 
 function App() {
     return(
         <>
-            <Navbar/>
+
             <Banner/>
-            <TopCompanies/>
-            <Services/>
-            <Portfolio/>
-            <AboutUs/>
-            <Testimonial/>
-            <Blog/>
-            <Footer/>
+
         </>
     )
 }

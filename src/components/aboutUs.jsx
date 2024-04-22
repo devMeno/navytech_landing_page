@@ -3,7 +3,7 @@ import {GoArrowRight, GoGoal} from "react-icons/go";
 
 export default function AboutUs(){
     return(
-        <div className={'text-center px-[25px] lg:px-[50px] md:px-[125px] py-[35px] md:py-[80px]'}>
+        <div className={'text-center px-[25px] md:px-[125px] py-[35px] md:py-[80px]'}>
             <span className={'text-[24px]'}>About us</span><br/>
             <span className={'font-semibold text-[36px] -mt-[50px]'}>Why we are bests</span>
             <div className="flex justify-between mt-[35px] md:mt-[80px]">
