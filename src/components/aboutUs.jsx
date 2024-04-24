@@ -1,9 +1,8 @@
-import { PiEyeDuotone } from "react-icons/pi";
-import {GoArrowRight, GoGoal} from "react-icons/go";
+import {GoArrowRight} from "react-icons/go";
 
 export default function AboutUs(){
     return(
-        <div className={'text-center px-[25px] md:px-[125px] py-[35px] md:py-[80px]'}>
+        <div className={'text-center px-[25px] md:px-[50px] 2xl:px-[125px] py-[35px] md:py-[80px]'}>
             <span className={'text-[24px]'}>About us</span><br/>
             <span className={'font-semibold text-[36px] -mt-[50px]'}>Why we are bests</span>
             <div className="flex justify-between mt-[35px] md:mt-[80px]">
@@ -15,22 +14,22 @@ export default function AboutUs(){
                     <div><img src="/public/images/aboutUs/aboutUs3.png" alt="" className={'w-[302px] h-full'}/></div>
                 </div>
                 <div
-                    className={'w-[620px] lg:h-[522px] text-left text-[20px] grid grid-cols-1 gap-[35px] content-between mx-auto justify-center'}>
+                    className={'w-[620px] lg:h-[522px] text-left text-[18px] sm:text-[20px] grid grid-cols-1 gap-[20px] md:gap-[35px] content-between mx-auto justify-center'}>
                     <span>
                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
                     </span>
                     <div className="flex justify-between">
                         <img src="/public/images/aboutUs/icons/Eye.png" alt="" className={'w-[50px] md:w-[80px] h-[50px] md:h-[80px]'}/>
                         <div className={'w-[524px]'}>
-                            <span className={'font-semibold text-[32px]'}>Our Vision</span><br/>
-                            <span className={'text-[20px]'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque cupiditate delectus .</span>
+                            <span className={'font-semibold text-[25px] sm:text-[32px]'}>Our Vision</span><br/>
+                            <span className={'text-[18px] sm:text-[20px]'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque cupiditate delectus .</span>
                         </div>
                     </div>
                     <div className="flex justify-between">
                         <img src="/public/images/aboutUs/icons/Target.png" alt="" className={'w-[50px] md:w-[80px] h-[50px] md:h-[80px]'}/>
                         <div className={'w-[524px]'}>
-                            <span className={'font-semibold text-[32px]'}>Our Mission</span><br/>
-                            <span className={'text-[20px]'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque cupiditate delectus .</span>
+                            <span className={'font-semibold text-[25px] sm:text-[32px]'}>Our Mission</span><br/>
+                            <span className={'text-[18px] sm:text-[20px]'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque cupiditate delectus .</span>
                         </div>
                     </div>
                     <button type="button"

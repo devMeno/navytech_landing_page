@@ -14,7 +14,7 @@ function App() {
     return(
         <>
 
-            <Banner/>
+            <Blog/>
 
         </>
     )
