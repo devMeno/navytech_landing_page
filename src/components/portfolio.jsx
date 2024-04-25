@@ -13,13 +13,18 @@ export default function Portfolio(){
                      className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
                 <img src="/public/images/portfolio/portfolioPicture3.png" alt=""
                      className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
-                <img src="/public/images/portfolio/portfolioPicture4.png" alt="" className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
-                <img src="/public/images/portfolio/portfolioPicture5.png" alt="" className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
-                <img src="/public/images/portfolio/portfolioPicture6.png" alt="" className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
+                <img src="/public/images/portfolio/portfolioPicture4.png" alt=""
+                     className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
+                <img src="/public/images/portfolio/portfolioPicture5.png" alt=""
+                     className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
+                <img src="/public/images/portfolio/portfolioPicture6.png" alt=""
+                     className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
             </div>
             <button type="button"
-                    className="text-white text-[24px] bg-[#003BA4] h-[75px] 2xl:h-[82px] mb-[25px] w-[250px] 2xl:w-[323px]] mt-[35px] md:mt-[80px] font-medium rounded-lg text-sm px-5 py-2.5 me-2 text-center">
-                <span className={'inline-block'}><span className={'text-[20px] 2xl:text-[24px] flex items-center mx-auto'}>View more<GoArrowRight className={'w-34px] h-[34px] ml-[10px]'}/></span></span>
+                    className="mt-[35px] md:mt-[80px] text-white text-[24px] bg-[#003BA4] h-[60px] md:h-[82px] md:mb-[25px] w-[200px] md:w-[323px] font-medium rounded-lg text-sm px-5 py-2.5 me-2 text-center mx-auto justify-center">
+                        <span className={'inline-block'}><span
+                            className={'text-[15px] md:text-[24px] flex items-center mx-auto'}>View more<GoArrowRight
+                            className={'w-34px] h-[34px] ml-[10px]'}/></span></span>
             </button>
         </div>
     )

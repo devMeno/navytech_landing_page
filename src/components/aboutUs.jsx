@@ -32,11 +32,13 @@ export default function AboutUs(){
                             <span className={'text-[18px] sm:text-[20px]'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque cupiditate delectus .</span>
                         </div>
                     </div>
-                    <button type="button"
-                            className="text-white ml-[70px] md:ml-0 text-[24px] bg-[#003BA4] h-[60px] md:h-[82px] md:mb-[25px] w-[200px] md:w-[323px] font-medium rounded-lg text-sm px-5 py-2.5 me-2 text-center">
+                    <div className={'w-[200px] md:w-[323px] mx-auto 2xl:ml-0'}>
+                        <button type="button"
+                            className="text-white mx-auto 2xl:ml-[70px] text-[24px] bg-[#003BA4] h-[60px] md:h-[82px] md:mb-[25px] w-[200px] md:w-[323px] font-medium rounded-lg text-sm px-5 py-2.5 me-2 text-center">
                         <span className={'inline-block'}><span className={'text-[15px] md:text-[24px] flex items-center mx-auto'}>Read more<GoArrowRight
                             className={'w-34px] h-[34px] ml-[10px]'}/></span></span>
-                    </button>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

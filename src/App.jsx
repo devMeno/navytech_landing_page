@@ -13,9 +13,14 @@ import ResponsiveDemo from "./components/caroussel.jsx";
 function App() {
     return(
         <>
-
+            <Navbar/>
+            <Banner/>
+            <TopCompanies/>
+            <Services/>
+            <Portfolio/>
+            <AboutUs/>
             <Blog/>
-
+            <Footer/>
         </>
     )
 }
