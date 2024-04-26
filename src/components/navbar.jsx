@@ -3,12 +3,12 @@ import { IoSearch } from "react-icons/io5";
 export default function Navbar(){
     return(
         <nav
-            className="fixed w-full h-[96px] z-20 top-0 px-[80px] start-0 border-[#000816] bg-[#000816] text-white">
+            className="fixed w-full h-[96px] z-20 top-0 px-[25px] md:px-[50px] 2xl:px-[125px] start-0 border-[#000816] bg-[#000816] text-white">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto h-[96px]">
                 <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo"/>
                         <span
-                            className="self-center text-2xl font-semibold whitespace-nowrap">Navytech</span>
+                            className="hidden self-center text-2xl font-semibold whitespace-nowrap">Navytech</span>
                 </a>
                 <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                     <button type="button"

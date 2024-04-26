@@ -9,18 +9,12 @@ import Testimonial from "./components/testimonial.jsx";
 import Blog from "./components/blog.jsx";
 import Footer from "./components/footer.jsx";
 import ResponsiveDemo from "./components/caroussel.jsx";
+import Nav from "./components/nav.jsx";
 
 function App() {
     return(
         <>
-            <Navbar/>
-            <Banner/>
-            <TopCompanies/>
-            <Services/>
-            <Portfolio/>
-            <AboutUs/>
-            <Blog/>
-            <Footer/>
+            <ResponsiveDemo/>
         </>
     )
 }

@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Footer(){
     return (
         <footer className="bg-black text-white py-[40px]">
@@ -5,14 +7,14 @@ export default function Footer(){
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <a href="https://flowbite.com/" className="flex items-center">
-                            <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 me-3"
-                                 alt="FlowBite Logo"/>
+                            <img src="/public/images/logo/Logo_Navytech.png" alt="Logo"
+                                 className={'w-[50px] md:w-[60px] h-[28px] md:h-[34px] mr-[10px]'}/>
                             <span
                                 className="self-center text-2xl font-semibold whitespace-nowrap">Navytech</span>
                         </a>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                        <div>
+                    <div>
                             <h2 className="mb-6 text-sm font-semibold uppercase">Resources</h2>
                             <ul className="font-medium">
                                 <li className="mb-4">
