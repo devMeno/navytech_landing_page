@@ -14,7 +14,7 @@ export default function Nav() {
 
     return (
         <Navbar onMenuOpenChange={setIsMenuOpen} style={{backgroundColor:'black',color:'white',height:'96px'}}
-        className={'bg-black text-white md:h-[96px]'}>
+        className={'bg-[#000816] text-white md:h-[96px]'}>
             <NavbarContent className={'2xl:-ml-[145px]'}>
                 <NavbarMenuToggle
                     aria-label={isMenuOpen ? "Close menu" : "Open menu"}

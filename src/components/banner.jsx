@@ -28,7 +28,7 @@ export default function Banner(){
                     </div>
                 </div>
                 <div className={'mt-[60px] lg:mt-0 mx-auto justify-center'}>
-                    <img src="/public/images/pexels-tima-miroshnichenko-5725433.jpg" className={'w-[450px] h-[550px] sm:w-[516px] sm:h-[612px] rounded-tl-[80px] rounded-br-[80px]'} alt=""/>
+                    <img src="/public/images/banner/navytech_banner.png" className={'w-[450px] h-[550px] sm:w-[516px] sm:h-[612px] rounded-tl-[80px] rounded-br-[80px]'} alt="Banner image"/>
                 </div>
             </div>
         </div>
