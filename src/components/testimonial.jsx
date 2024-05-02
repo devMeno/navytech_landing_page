@@ -1,6 +1,3 @@
-import { LiaStarSolid } from "react-icons/lia";
-import {PiEyeDuotone, PiGlobeHemisphereWestThin} from "react-icons/pi";
-import {GoChevronRight, GoGoal} from "react-icons/go";
 import ResponsiveDemo from "./caroussel.jsx";
 
 export default function Testimonial(){

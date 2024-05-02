@@ -1,8 +1,4 @@
-import { PiPaintBrushThin } from "react-icons/pi";
 import { GoChevronRight } from "react-icons/go";
-import { PiGlobeHemisphereWestThin } from "react-icons/pi";
-import { IoIosPhonePortrait } from "react-icons/io";
-import { PiCreditCardThin } from "react-icons/pi";
 
 export default function Services(){
     return(

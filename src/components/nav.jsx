@@ -1,6 +1,5 @@
 import React from "react";
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button} from "@nextui-org/react";
-import {AcmeLogo} from "./AcmeLogo.jsx";
+import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link} from "@nextui-org/react";
 
 export default function Nav() {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -13,7 +12,7 @@ export default function Nav() {
     ];
 
     return (
-        <Navbar onMenuOpenChange={setIsMenuOpen} style={{backgroundColor:'black',color:'white',height:'96px'}}
+        <Navbar onMenuOpenChange={setIsMenuOpen} style={{color:'white',height:'96px'}}
         className={'bg-[#000816] text-white md:h-[96px]'}>
             <NavbarContent className={'2xl:-ml-[145px]'}>
                 <NavbarMenuToggle
