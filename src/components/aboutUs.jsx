@@ -1,4 +1,9 @@
 import {GoArrowRight} from "react-icons/go";
+import AboutUs1 from "/public/images/aboutUs/aboutUs1.png"
+import AboutUs2 from "/public/images/aboutUs/aboutUs2.png"
+import AboutUs3 from "/public/images/aboutUs/aboutUs3.png"
+import Eye from "/public/images/aboutUs/icons/Eye.png"
+import Target from "/public/images/aboutUs/icons/Target.png"
 
 export default function AboutUs(){
     return(
@@ -8,10 +13,10 @@ export default function AboutUs(){
             <div className="flex justify-between mt-[35px] md:mt-[80px]">
                 <div className={'hidden w-[620px] h-[522px] lg:flex justify-between'}>
                     <div className={'relative'}>
-                        <img src="/public/images/aboutUs/aboutUs1.png" alt="" className={'w-[302px] h-[346px]'}/>
-                        <img src="/public/images/aboutUs/aboutUs2.png" alt="" className={'w-[302px] h-[160px] absolute bottom-0'}/>
+                        <img src={AboutUs1} alt="" className={'w-[302px] h-[346px]'}/>
+                        <img src={AboutUs2} alt="" className={'w-[302px] h-[160px] absolute bottom-0'}/>
                     </div>
-                    <div><img src="/public/images/aboutUs/aboutUs3.png" alt="" className={'w-[302px] h-full'}/></div>
+                    <div><img src={AboutUs3} alt="" className={'w-[302px] h-full'}/></div>
                 </div>
                 <div
                     className={'w-[620px] lg:h-[522px] text-left text-[18px] sm:text-[20px] grid grid-cols-1 gap-[20px] md:gap-[35px] content-between mx-auto justify-center'}>
@@ -19,14 +24,14 @@ export default function AboutUs(){
                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
                     </span>
                     <div className="flex justify-between">
-                        <img src="/public/images/aboutUs/icons/Eye.png" alt="" className={'w-[50px] md:w-[80px] h-[50px] md:h-[80px]'}/>
+                        <img src={Eye} alt="" className={'w-[50px] md:w-[80px] h-[50px] md:h-[80px]'}/>
                         <div className={'w-[524px]'}>
                             <span className={'font-semibold text-[25px] sm:text-[32px]'}>Our Vision</span><br/>
                             <span className={'text-[18px] sm:text-[20px]'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque cupiditate delectus .</span>
                         </div>
                     </div>
                     <div className="flex justify-between">
-                        <img src="/public/images/aboutUs/icons/Target.png" alt="" className={'w-[50px] md:w-[80px] h-[50px] md:h-[80px]'}/>
+                        <img src={Target} alt="" className={'w-[50px] md:w-[80px] h-[50px] md:h-[80px]'}/>
                         <div className={'w-[524px]'}>
                             <span className={'font-semibold text-[25px] sm:text-[32px]'}>Our Mission</span><br/>
                             <span className={'text-[18px] sm:text-[20px]'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque cupiditate delectus .</span>

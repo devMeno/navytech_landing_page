@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "/public/images/logo/Logo_Navytech.png"
 
 export default function Footer(){
     return (
@@ -6,8 +7,8 @@ export default function Footer(){
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
-                        <a href="https://flowbite.com/" className="flex items-center">
-                            <img src="/public/images/logo/Logo_Navytech.png" alt="Logo"
+                        <a href="#" className="flex items-center">
+                            <img src={Logo} alt="Logo"
                                  className={'w-[50px] md:w-[60px] h-[28px] md:h-[34px] mr-[10px]'}/>
                             <span
                                 className="self-center text-2xl font-semibold whitespace-nowrap">Navytech</span>
@@ -18,10 +19,10 @@ export default function Footer(){
                             <h2 className="mb-6 text-sm font-semibold uppercase">Resources</h2>
                             <ul className="font-medium">
                                 <li className="mb-4">
-                                    <a href="https://flowbite.com/" className="hover:underline">Flowbite</a>
+                                    <a href="#" className="hover:underline">Flowbite</a>
                                 </li>
                                 <li>
-                                    <a href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</a>
+                                    <a href="#" className="hover:underline">Tailwind CSS</a>
                                 </li>
                             </ul>
                         </div>
@@ -30,11 +31,11 @@ export default function Footer(){
                                 us</h2>
                             <ul className="font-medium">
                                 <li className="mb-4">
-                                    <a href="https://github.com/themesberg/flowbite"
+                                    <a href="#"
                                        className="hover:underline ">Github</a>
                                 </li>
                                 <li>
-                                    <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</a>
+                                    <a href="#" className="hover:underline">Discord</a>
                                 </li>
                             </ul>
                         </div>

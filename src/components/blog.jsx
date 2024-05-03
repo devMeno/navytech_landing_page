@@ -1,8 +1,9 @@
-import {PiCreditCardThin, PiGlobeHemisphereWestThin, PiPaintBrushThin} from "react-icons/pi";
 import {GoArrowRight, GoChevronRight} from "react-icons/go";
-import {IoIosPhonePortrait} from "react-icons/io";
 import { GoPerson } from "react-icons/go";
 import { PiCalendarBlankLight } from "react-icons/pi";
+import BlogImage1 from "/public/images/blog/blog1.png"
+import BlogImage2 from "/public/images/blog/blog2.png"
+import BlogImage3 from "/public/images/blog/blog3.png"
 
 export default function Blog(){
     return (
@@ -12,7 +13,7 @@ export default function Blog(){
             <div className={'md:flex justify-between mt-[35px] md:mt-[80px] mx-auto'}>
                 <div className={'md:w-[412px] h-[503px] p-[16px] mx-auto justify-center max-w-[379px]'}>
                     <div>
-                        <img src="/public/images/blog/blog1.png" alt=""
+                        <img src={BlogImage1} alt=""
                              className={'h-[300px] w-[379px] rounded-[8px] mb-[15px]'}/>
                     </div>
                     <div className={'w-full flex justify-between'}>
@@ -35,7 +36,7 @@ export default function Blog(){
                 </div>
                 <div className={'md:w-[412px] h-[503px] p-[16px] mx-auto justify-center  max-w-[379px]'}>
                     <div>
-                        <img src="/public/images/blog/blog2.png" alt=""
+                        <img src={BlogImage2} alt=""
                              className={'h-[300px] w-[379px] rounded-[8px] mb-[15px]'}/>
                     </div>
                     <div className={'w-full flex justify-between'}>
@@ -58,7 +59,7 @@ export default function Blog(){
                 </div>
                 <div className={'md:w-[412px] h-[503px] p-[16px] mx-auto justify-center  max-w-[379px]'}>
                     <div>
-                        <img src="/public/images/blog/blog3.png" alt=""
+                        <img src={BlogImage3} alt=""
                              className={'h-[300px] w-[379px] rounded-[8px] mb-[15px]'}/>
                     </div>
                     <div className={'w-full flex justify-between'}>

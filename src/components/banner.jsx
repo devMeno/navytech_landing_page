@@ -1,5 +1,5 @@
 import { FaPhoneAlt } from "react-icons/fa";
-import Image1 from "/public/images/banner/navytech_banner.png"
+import BannerImage from "/public/images/banner/navytech_banner.png"
 
 export default function Banner(){
     return(
@@ -29,7 +29,7 @@ export default function Banner(){
                     </div>
                 </div>
                 <div className={'mt-[60px] lg:mt-0 mx-auto justify-center'}>
-                    <img src={Image1} className={'w-[450px] h-[550px] sm:w-[516px] sm:h-[612px] rounded-tl-[80px] rounded-br-[80px]'} alt="Banner image"/>
+                    <img src={BannerImage} className={'w-[450px] h-[550px] sm:w-[516px] sm:h-[612px] rounded-tl-[80px] rounded-br-[80px]'} alt="Banner image"/>
                 </div>
             </div>
         </div>

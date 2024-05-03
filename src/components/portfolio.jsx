@@ -1,4 +1,10 @@
 import {GoArrowRight} from "react-icons/go";
+import Picture1 from "/public/images/portfolio/portfolioPicture1.png"
+import Picture2 from "/public/images/portfolio/portfolioPicture2.png"
+import Picture3 from "/public/images/portfolio/portfolioPicture3.png"
+import Picture4 from "/public/images/portfolio/portfolioPicture4.png"
+import Picture5 from "/public/images/portfolio/portfolioPicture5.png"
+import Picture6 from "/public/images/portfolio/portfolioPicture6.png"
 
 
 export default function Portfolio(){
@@ -7,17 +13,17 @@ export default function Portfolio(){
             <span className={'text-[24px]'}>Porfolio</span><br/>
             <span className={'font-semibold text-[36px] -mt-[50px]'}>Our previous works</span>
             <div className={'flex flex-wrap mt-[35px]  md:mt-[80px] justify-between'}>
-                <img src="/public/images/portfolio/portfolioPicture1.png" alt=""
+                <img src={Picture1} alt=""
                      className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
-                <img src="/public/images/portfolio/portfolioPicture2.png" alt=""
+                <img src={Picture2} alt=""
                      className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
-                <img src="/public/images/portfolio/portfolioPicture3.png" alt=""
+                <img src={Picture3} alt=""
                      className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
-                <img src="/public/images/portfolio/portfolioPicture4.png" alt=""
+                <img src={Picture4} alt=""
                      className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
-                <img src="/public/images/portfolio/portfolioPicture5.png" alt=""
+                <img src={Picture5} alt=""
                      className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
-                <img src="/public/images/portfolio/portfolioPicture6.png" alt=""
+                <img src={Picture6} alt=""
                      className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
             </div>
             <button type="button"

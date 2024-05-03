@@ -1,5 +1,6 @@
 import React from "react";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link} from "@nextui-org/react";
+import Logo from "/public/images/logo/Logo_Navytech.png"
 
 export default function Nav() {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -20,7 +21,7 @@ export default function Nav() {
                     className="sm:hidden"
                 />
                 <NavbarBrand>
-                    <img src="/public/images/logo/Logo_Navytech.png" alt="Logo" className={'w-[50px] md:w-[60px] h-[28px] md:h-[34px]'}/>
+                    <img src={Logo} alt="Logo" className={'w-[50px] md:w-[60px] h-[28px] md:h-[34px]'}/>
                 </NavbarBrand>
             </NavbarContent>
 

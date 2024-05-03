@@ -1,11 +1,10 @@
 
 import React, { useState, useEffect } from 'react';
-import { Button } from 'primereact/button';
 import { Carousel } from 'primereact/carousel';
-import { Tag } from 'primereact/tag';
 import {PiGlobeHemisphereWestThin} from "react-icons/pi";
 import {LiaStarSolid} from "react-icons/lia";
 import {ProductService} from "./testimonials/testimonials.jsx";
+import Elizabeth from "/public/images/testimonials/pexels-elizabeth-ferreira-20846828.jpg"
 
 export default function ResponsiveDemo() {
     const [products, setProducts] = useState([]);
@@ -48,7 +47,7 @@ export default function ResponsiveDemo() {
                 </div>
                 <div
                     className={'w-[140px] md:w-[253px] md:h-[100px] mx-auto flex items-center justify-between'}>
-                    <img src="/public/images/pexels-elizabeth-ferreira-20846828.jpg" alt=""
+                    <img src={Elizabeth} alt=""
                          className={'w-[40px] md:w-[100px] h-[40px] md:h-[100px] rounded-full'}/>
                     <div>
                         <span className={'text-[12px] md:text-[20px] font-semibold md:mb-[10px]'}>{product.name}</span>
