@@ -4,6 +4,7 @@ import { PiCalendarBlankLight } from "react-icons/pi";
 import BlogImage1 from "/public/images/blog/blog1.png"
 import BlogImage2 from "/public/images/blog/blog2.png"
 import BlogImage3 from "/public/images/blog/blog3.png"
+import {motion} from "framer-motion";
 
 export default function Blog(){
     return (
@@ -30,8 +31,8 @@ export default function Blog(){
                         amet,
                         consectetur </p>
                     <p className={'mx-auto mt-[25px] text-[#003BA4] w-[148px] flex justify-center'}><a href="#">
-                        <div className={'flex items-center mx-auto'}>View details<GoChevronRight
-                            className={'h-[16px] w-[16px] ml-[3px]'}/></div>
+                        <motion.div whileHover={{scale:1.05}} onHoverStart={e=>{}} onHoverEnd={e=>{}} className={'flex items-center mx-auto'}>View details<GoChevronRight
+                            className={'h-[16px] w-[16px] ml-[3px]'}/></motion.div>
                     </a></p>
                 </div>
                 <div className={'md:w-[412px] h-[503px] p-[16px] mx-auto justify-center  max-w-[379px]'}>
@@ -53,8 +54,8 @@ export default function Blog(){
                         amet,
                         consectetur </p>
                     <p className={'mx-auto mt-[25px] text-[#003BA4] w-[148px] flex justify-center'}><a href="#">
-                        <div className={'flex items-center mx-auto'}>View details<GoChevronRight
-                            className={'h-[16px] w-[16px] ml-[3px]'}/></div>
+                        <motion.div whileHover={{scale:1.05}} onHoverStart={e=>{}} onHoverEnd={e=>{}} className={'flex items-center mx-auto'}>View details<GoChevronRight
+                            className={'h-[16px] w-[16px] ml-[3px]'}/></motion.div>
                     </a></p>
                 </div>
                 <div className={'md:w-[412px] h-[503px] p-[16px] mx-auto justify-center  max-w-[379px]'}>
@@ -76,17 +77,17 @@ export default function Blog(){
                         amet,
                         consectetur </p>
                     <p className={'mx-auto mt-[25px] text-[#003BA4] w-[148px] flex justify-center'}><a href="#">
-                        <div className={'flex items-center mx-auto'}>View details<GoChevronRight
-                            className={'h-[16px] w-[16px] ml-[3px]'}/></div>
+                        <motion.div whileHover={{scale:1.05}} onHoverStart={e=>{}} onHoverEnd={e=>{}} className={'flex items-center mx-auto'}>View details<GoChevronRight
+                            className={'h-[16px] w-[16px] ml-[3px]'}/></motion.div>
                     </a></p>
                 </div>
             </div>
-            <button type="button"
+            <motion.button whileHover={{scale:1.05}} onHoverStart={e=>{}} onHoverEnd={e=>{}} type="button"
                     className="mt-[35px] md:mt-[80px] text-white text-[24px] bg-[#003BA4] h-[60px] md:h-[82px] md:mb-[25px] w-[200px] md:w-[323px] font-medium rounded-lg text-sm px-5 py-2.5 me-2 text-center mx-auto justify-center">
                         <span className={'inline-block'}><span
                             className={'text-[15px] md:text-[24px] flex items-center mx-auto'}>View more<GoArrowRight
                             className={'w-34px] h-[34px] ml-[10px]'}/></span></span>
-            </button>
+            </motion.button>
         </div>
     )
 }

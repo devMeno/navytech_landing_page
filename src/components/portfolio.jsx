@@ -27,12 +27,12 @@ export default function Portfolio(){
                 <motion.img initial={{opacity:0}} whileHover={{scale:1.05}} onHoverStart={e=>{}} onHoverEnd={e=>{}} whileInView={{opacity:1}} transition={{duration:0.8 , ease:"easeIn"}} src={Picture6} alt=""
                      className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
             </div>
-            <button type="button"
+            <motion.button whileHover={{scale:1.05}} onHoverStart={e=>{}} onHoverEnd={e=>{}} type="button"
                     className="mt-[35px] md:mt-[80px] text-white text-[24px] bg-[#003BA4] h-[60px] md:h-[82px] md:mb-[25px] w-[200px] md:w-[323px] font-medium rounded-lg text-sm px-5 py-2.5 me-2 text-center mx-auto justify-center">
                         <span className={'inline-block'}><span
                             className={'text-[15px] md:text-[24px] flex items-center mx-auto'}>View more<GoArrowRight
                             className={'w-34px] h-[34px] ml-[10px]'}/></span></span>
-            </button>
+            </motion.button>
         </div>
     )
 }

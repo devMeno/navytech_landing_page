@@ -4,6 +4,7 @@ import AboutUs2 from "/public/images/aboutUs/aboutUs2.png"
 import AboutUs3 from "/public/images/aboutUs/aboutUs3.png"
 import Eye from "/public/images/aboutUs/icons/Eye.png"
 import Target from "/public/images/aboutUs/icons/Target.png"
+import {motion} from "framer-motion";
 
 export default function AboutUs(){
     return(
@@ -38,11 +39,11 @@ export default function AboutUs(){
                         </div>
                     </div>
                     <div className={'w-[200px] md:w-[323px] mx-auto 2xl:ml-0'}>
-                        <button type="button"
+                        <motion.button whileHover={{scale:1.05}} onHoverStart={e=>{}} onHoverEnd={e=>{}} type="button"
                             className="text-white mx-auto 2xl:ml-[70px] text-[24px] bg-[#003BA4] h-[60px] md:h-[82px] md:mb-[25px] w-[200px] md:w-[323px] font-medium rounded-lg text-sm px-5 py-2.5 me-2 text-center">
                         <span className={'inline-block'}><span className={'text-[15px] md:text-[24px] flex items-center mx-auto'}>Read more<GoArrowRight
                             className={'w-34px] h-[34px] ml-[10px]'}/></span></span>
-                        </button>
+                        </motion.button>
                     </div>
                 </div>
             </div>
