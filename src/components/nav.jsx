@@ -1,6 +1,7 @@
 import React from "react";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link} from "@nextui-org/react";
 import Logo from "/public/images/logo/Logo_Navytech.png"
+import {motion} from "framer-motion";
 
 export default function Nav() {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -55,7 +56,7 @@ export default function Nav() {
                     </button>
                 </NavbarItem>
             </NavbarContent>
-            <NavbarMenu className={'bg-black h-[300px]'}>
+            <NavbarMenu className={'bg-[#000816] h-[300px]'}>
                 {menuItems.map((item, index) => (
                     <NavbarMenuItem key={`${item}-${index}`}>
                         <Link
