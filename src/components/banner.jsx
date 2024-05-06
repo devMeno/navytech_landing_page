@@ -1,8 +1,21 @@
 import { FaPhoneAlt } from "react-icons/fa";
 import BannerImage from "/public/images/banner/navytech_banner.png"
-import {motion} from "framer-motion";
+import {motion, useMotionValue, useTransform , animate} from "framer-motion";
+import {useEffect} from "react";
+import Projects from "./projects.jsx";
+import Years from "./years.jsx";
+import Clients from "./clients.jsx";
 
 export default function Banner(){
+    const count = useMotionValue(0);
+    const rounded = useTransform(count , Math.round)
+
+    useEffect(() => {
+        const animation = animate(count , 75 , {duration:8})
+        console.log(rounded)
+        return animation.stop
+    } , [])
+
     return(
         <div className={'pt-[10px] bg-[#000816] text-white pb-[80px]'}>
             <div className={'flex flex-col lg:flex-row items-center px-[25px] md:px-[50px] 2xl:px-[125px] justify-between'}>
@@ -16,22 +29,22 @@ export default function Banner(){
                     </button>
                     <div className="grid gap-4 grid-cols-1 sm:grid-cols-3 lg:w-11/12 2xl:w-full">
                         <div className={'h-[90px] 2xl:h-[103px] bg-[#D9D9D9] rounded-[16px] text-[14px] text-center pt-3'}>
-                            <h1 className={'text-[28px] 2xl:text-[36px] font-semibold'}>75K+</h1>
+                            <h1 className={'text-[28px] 2xl:text-[36px] font-semibold'}><Projects/>K+</h1>
                             Project completed
                         </div>
                         <div className={'h-[90px] 2xl:h-[103px] bg-[#D9D9D9] rounded-[16px] text-[14px] text-center pt-3'}>
-                            <h1 className={'text-[28px] 2xl:text-[36px] font-semibold'}>20+</h1>
+                            <h1 className={'text-[28px] 2xl:text-[36px] font-semibold'}><Years/>+</h1>
                             Years of experience
                         </div>
                         <div className={'h-[90px] 2xl:h-[103px] bg-[#D9D9D9] rounded-[16px] text-[14px] text-center pt-3'}>
-                            <h1 className={'text-[28px] 2xl:text-[36px] font-semibold'}>400+</h1>
+                            <h1 className={'text-[28px] 2xl:text-[36px] font-semibold'}><Clients/>+</h1>
                             Clients worldwide
                         </div>
                     </div>
                 </div>
-                <div className={'mt-[60px] lg:mt-0 mx-auto justify-center'}>
+                <motion.div initial={{x:1000}} animate={{x:0}} transition={{duration:1 , ease:"easeOut"}} className={'mt-[60px] lg:mt-0 mx-auto justify-center'}>
                     <img src={BannerImage} className={'w-[450px] h-[550px] sm:w-[516px] sm:h-[612px] rounded-tl-[80px] rounded-br-[80px]'} alt="Banner image"/>
-                </div>
+                </motion.div>
             </div>
         </div>
     )

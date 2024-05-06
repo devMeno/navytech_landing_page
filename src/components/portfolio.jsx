@@ -5,6 +5,7 @@ import Picture3 from "/public/images/portfolio/portfolioPicture3.png"
 import Picture4 from "/public/images/portfolio/portfolioPicture4.png"
 import Picture5 from "/public/images/portfolio/portfolioPicture5.png"
 import Picture6 from "/public/images/portfolio/portfolioPicture6.png"
+import {motion} from "framer-motion";
 
 
 export default function Portfolio(){
@@ -13,17 +14,17 @@ export default function Portfolio(){
             <span className={'text-[24px]'}>Porfolio</span><br/>
             <span className={'font-semibold text-[36px] -mt-[50px]'}>Our previous works</span>
             <div className={'flex flex-wrap mt-[35px]  md:mt-[80px] justify-between'}>
-                <img src={Picture1} alt=""
+                <motion.img initial={{opacity:0}}  whileHover={{scale:1.05}} onHoverStart={e=>{}} onHoverEnd={e=>{}} whileInView={{opacity:1}} transition={{duration:0.8 , ease:"easeIn"}} src={Picture1} alt=""
                      className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
-                <img src={Picture2} alt=""
+                <motion.img initial={{opacity:0}} whileHover={{scale:1.05}} onHoverStart={e=>{}} onHoverEnd={e=>{}} whileInView={{opacity:1}} transition={{duration:0.8 , ease:"easeIn"}} src={Picture2} alt=""
                      className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
-                <img src={Picture3} alt=""
+                <motion.img initial={{opacity:0}} whileHover={{scale:1.05}} onHoverStart={e=>{}} onHoverEnd={e=>{}} whileInView={{opacity:1}} transition={{duration:0.8 , ease:"easeIn"}} src={Picture3} alt=""
                      className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
-                <img src={Picture4} alt=""
+                <motion.img initial={{opacity:0}} whileHover={{scale:1.05}} onHoverStart={e=>{}} onHoverEnd={e=>{}} whileInView={{opacity:1}} transition={{duration:0.8 , ease:"easeIn"}} src={Picture4} alt=""
                      className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
-                <img src={Picture5} alt=""
+                <motion.img initial={{opacity:0}} whileHover={{scale:1.05}} onHoverStart={e=>{}} onHoverEnd={e=>{}} whileInView={{opacity:1}} transition={{duration:0.8 , ease:"easeIn"}} src={Picture5} alt=""
                      className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
-                <img src={Picture6} alt=""
+                <motion.img initial={{opacity:0}} whileHover={{scale:1.05}} onHoverStart={e=>{}} onHoverEnd={e=>{}} whileInView={{opacity:1}} transition={{duration:0.8 , ease:"easeIn"}} src={Picture6} alt=""
                      className={'w-[405.33px] h-[320px] mb-[12px] mt-[12px] mx-auto justify-center'}/>
             </div>
             <button type="button"
