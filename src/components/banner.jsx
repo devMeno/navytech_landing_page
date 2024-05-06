@@ -1,14 +1,15 @@
 import { FaPhoneAlt } from "react-icons/fa";
 import BannerImage from "/public/images/banner/navytech_banner.png"
+import {motion} from "framer-motion";
 
 export default function Banner(){
     return(
         <div className={'pt-[10px] bg-[#000816] text-white pb-[80px]'}>
             <div className={'flex flex-col lg:flex-row items-center px-[25px] md:px-[50px] 2xl:px-[125px] justify-between'}>
                 <div className={'lg:w-[670px] 2xl:h-[531px]'}>
-                    <h1 className={'font-medium text-[40px] sm:text-[50px] 2xl:text-[64px]'}>#1 Worldwide Digital Solution Agency</h1>
-                    <p className={'text-[18px] 2xl:text-[20px] mt-[15px] mb-[25px]'}>Revolutionize your global digital strategy with the #1 Worldwide Digital Solution Agency
-                        , pioneering innovative solutions for unparallaled success.</p>
+                    <motion.h1 initial={{x:-1000}} animate={{x:0}} transition={{duration:1 , ease:"easeOut"}} className={'font-medium text-[40px] sm:text-[50px] 2xl:text-[64px]'}>#1 Worldwide Digital Solution Agency</motion.h1>
+                    <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:2 , ease:"easeInOut"}} className={'text-[18px] 2xl:text-[20px] mt-[15px] mb-[25px]'}>Revolutionize your global digital strategy with the #1 Worldwide Digital Solution Agency
+                        , pioneering innovative solutions for unparallaled success.</motion.p>
                     <button type="button"
                             className="text-white text-[24px] bg-[#003BA4] h-[75px] 2xl:h-[82px] mb-[25px] w-[100%] md:w-[250px] 2xl:w-[323px] font-medium rounded-lg text-sm px-5 py-2.5 me-2 text-center">
                         <span className={'inline-block'}><span className={'text-[20px] 2xl:text-[24px] flex items-center mx-auto'}><FaPhoneAlt className={'w-34px] h-[34px] mr-[10px]'}/>Book a call</span></span>
