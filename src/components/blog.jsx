@@ -1,12 +1,19 @@
 import {GoArrowRight, GoChevronRight} from "react-icons/go";
 import { GoPerson } from "react-icons/go";
 import { PiCalendarBlankLight } from "react-icons/pi";
-import BlogImage1 from "/public/images/blog/blog1.png"
-import BlogImage2 from "/public/images/blog/blog2.png"
-import BlogImage3 from "/public/images/blog/blog3.png"
+import BlogImage1 from "/public/images/blog/blog1.webp"
+import BlogImage2 from "/public/images/blog/blog2.webp"
+import BlogImage3 from "/public/images/blog/blog3.webp"
 import {motion} from "framer-motion";
+import {useEffect} from "react";
+import aos from "aos"
+import "aos/dist/aos.css"
 
 export default function Blog(){
+    useEffect(()=>{
+        aos.init();
+    },[])
+
     return (
         <div className={'text-center px-[25px] md:px-[50px] 2xl:px-[125px] py-[35px] md:py-[80px]'}>
             <span className={'text-[24px]'}>Blog</span><br/>
@@ -14,22 +21,20 @@ export default function Blog(){
             <div className={'md:flex justify-between mt-[35px] md:mt-[80px] mx-auto'}>
                 <div className={'md:w-[412px] h-[503px] p-[16px] mx-auto justify-center max-w-[379px]'}>
                     <div>
-                        <img src={BlogImage1} alt=""
+                        <img data-aos="fade-right" src={BlogImage1} alt=""
                              className={'h-[300px] w-[379px] rounded-[8px] mb-[15px]'}/>
                     </div>
                     <div className={'w-full flex justify-between'}>
                         <div className={'flex'}>
                             <GoPerson className={'w-[17px] h-[17px] text-[#003BA4]'}/>
-                            <span className={'text-[14px]'}>John Doe</span>
+                            <span className={'text-[14px] ml-[5px]'}>John Doe</span>
                         </div>
-                        <div className={'flex'}>
+                        <div className={'flex items-center'}>
                             <PiCalendarBlankLight className={'w-[17px] h-[17px] text-[#003BA4]'}/>
-                            <span className={'text-[14px]'}>Feb 23 , 2024</span>
+                            <span className={'text-[14px] ml-[5px]'}>Feb 23 , 2024</span>
                         </div>
                     </div>
-                    <p className={'font-semibold text-[22px] md:text-[24px] my-[20px] text-left'}>Lorem ipsum dolor sit
-                        amet,
-                        consectetur </p>
+                    <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:2 , ease:"easeInOut"}} className={'font-semibold text-[22px] md:text-[24px] my-[20px] text-left'}>Our dedicated team is here for you</motion.p>
                     <p className={'mx-auto mt-[25px] text-[#003BA4] w-[148px] flex justify-center'}><a href="#">
                         <motion.div whileHover={{scale:1.05}} onHoverStart={e=>{}} onHoverEnd={e=>{}} className={'flex items-center mx-auto'}>View details<GoChevronRight
                             className={'h-[16px] w-[16px] ml-[3px]'}/></motion.div>
@@ -37,22 +42,20 @@ export default function Blog(){
                 </div>
                 <div className={'md:w-[412px] h-[503px] p-[16px] mx-auto justify-center  max-w-[379px]'}>
                     <div>
-                        <img src={BlogImage2} alt=""
+                        <img data-aos="fade-down" src={BlogImage2} alt=""
                              className={'h-[300px] w-[379px] rounded-[8px] mb-[15px]'}/>
                     </div>
                     <div className={'w-full flex justify-between'}>
                         <div className={'flex'}>
                             <GoPerson className={'w-[17px] h-[17px] text-[#003BA4]'}/>
-                            <span className={'text-[14px]'}>John Doe</span>
+                            <span className={'text-[14px] ml-[5px]'}>John Doe</span>
                         </div>
-                        <div className={'flex'}>
+                        <div className={'flex items-center'}>
                             <PiCalendarBlankLight className={'w-[17px] h-[17px] text-[#003BA4]'}/>
-                            <span className={'text-[14px]'}>Feb 23 , 2024</span>
+                            <span className={'text-[14px] ml-[5px]'}>Feb 23 , 2024</span>
                         </div>
                     </div>
-                    <p className={'font-semibold text-[22px] md:text-[24px] my-[20px] text-left'}>Lorem ipsum dolor sit
-                        amet,
-                        consectetur </p>
+                    <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:2 , ease:"easeInOut"}} className={'font-semibold text-[22px] md:text-[24px] my-[20px] text-left'}>Top-notch equipment for superior performance</motion.p>
                     <p className={'mx-auto mt-[25px] text-[#003BA4] w-[148px] flex justify-center'}><a href="#">
                         <motion.div whileHover={{scale:1.05}} onHoverStart={e=>{}} onHoverEnd={e=>{}} className={'flex items-center mx-auto'}>View details<GoChevronRight
                             className={'h-[16px] w-[16px] ml-[3px]'}/></motion.div>
@@ -60,22 +63,20 @@ export default function Blog(){
                 </div>
                 <div className={'md:w-[412px] h-[503px] p-[16px] mx-auto justify-center  max-w-[379px]'}>
                     <div>
-                        <img src={BlogImage3} alt=""
+                        <img data-aos="fade-left" src={BlogImage3} alt=""
                              className={'h-[300px] w-[379px] rounded-[8px] mb-[15px]'}/>
                     </div>
                     <div className={'w-full flex justify-between'}>
                         <div className={'flex'}>
                             <GoPerson className={'w-[17px] h-[17px] text-[#003BA4]'}/>
-                            <span className={'text-[14px]'}>John Doe</span>
+                            <span className={'text-[14px] ml-[5px]'}>John Doe</span>
                         </div>
-                        <div className={'flex'}>
+                        <div className={'flex items-center'}>
                             <PiCalendarBlankLight className={'w-[17px] h-[17px] text-[#003BA4]'}/>
-                            <span className={'text-[14px]'}>Feb 23 , 2024</span>
+                            <span className={'text-[14px] ml-[5px]'}>Feb 23 , 2024</span>
                         </div>
                     </div>
-                    <p className={'font-semibold text-[22px] md:text-[24px] my-[20px] text-left'}>Lorem ipsum dolor sit
-                        amet,
-                        consectetur </p>
+                    <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:2 , ease:"easeInOut"}} className={'font-semibold text-[22px] md:text-[24px] my-[20px] text-left'}>Our devoted team make a difference</motion.p>
                     <p className={'mx-auto mt-[25px] text-[#003BA4] w-[148px] flex justify-center'}><a href="#">
                         <motion.div whileHover={{scale:1.05}} onHoverStart={e=>{}} onHoverEnd={e=>{}} className={'flex items-center mx-auto'}>View details<GoChevronRight
                             className={'h-[16px] w-[16px] ml-[3px]'}/></motion.div>

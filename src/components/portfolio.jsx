@@ -1,10 +1,10 @@
 import {GoArrowRight} from "react-icons/go";
-import Picture1 from "/public/images/portfolio/portfolioPicture1.png"
-import Picture2 from "/public/images/portfolio/portfolioPicture2.png"
-import Picture3 from "/public/images/portfolio/portfolioPicture3.png"
-import Picture4 from "/public/images/portfolio/portfolioPicture4.png"
-import Picture5 from "/public/images/portfolio/portfolioPicture5.png"
-import Picture6 from "/public/images/portfolio/portfolioPicture6.png"
+import Picture1 from "/public/images/portfolio/portfolioPicture1.webp"
+import Picture2 from "/public/images/portfolio/portfolioPicture2.webp"
+import Picture3 from "/public/images/portfolio/portfolioPicture3.webp"
+import Picture4 from "/public/images/portfolio/portfolioPicture4.webp"
+import Picture5 from "/public/images/portfolio/portfolioPicture5.webp"
+import Picture6 from "/public/images/portfolio/portfolioPicture6_1.webp"
 import {motion} from "framer-motion";
 
 

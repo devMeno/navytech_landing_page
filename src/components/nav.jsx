@@ -1,7 +1,9 @@
 import React from "react";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link} from "@nextui-org/react";
-import Logo from "/public/images/logo/Logo_Navytech.png"
-import {motion} from "framer-motion";
+import Logo from "/public/images/logo/Logo_Navytech.webp"
+import {useEffect} from "react";
+import aos from "aos"
+import "aos/dist/aos.css"
 
 export default function Nav() {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -12,6 +14,10 @@ export default function Nav() {
         "About us",
         "Testimonial",
     ];
+
+    useEffect(()=>{
+        aos.init();
+    },[])
 
     return (
         <Navbar onMenuOpenChange={setIsMenuOpen} style={{color:'white',height:'96px'}}
@@ -28,22 +34,22 @@ export default function Nav() {
 
             <NavbarContent className="hidden sm:flex gap-4" justify="center">
                 <NavbarItem>
-                    <Link href="#" aria-current="page" style={{color:'white',fontSize:'20px'}}>
+                    <Link data-aos="zoom-in" href="#" aria-current="page" style={{color:'white',fontSize:'20px'}}>
                         Services
                     </Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link color="foreground" href="#" style={{color:'white',fontSize:'20px'}}>
+                    <Link data-aos="zoom-in" color="foreground" href="#" style={{color:'white',fontSize:'20px'}}>
                         Portfolio
                     </Link>
                 </NavbarItem>
                 <NavbarItem style={{color:'white'}}>
-                    <Link color="foreground" href="#" style={{color:'white',fontSize:'20px'}}>
+                    <Link data-aos="zoom-in" color="foreground" href="#" style={{color:'white',fontSize:'20px'}}>
                         About us
                     </Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link color="foreground" href="#" style={{color:'white',fontSize:'20px'}}>
+                    <Link data-aos="zoom-in" color="foreground" href="#" style={{color:'white',fontSize:'20px'}}>
                         Testimonial
                     </Link>
                 </NavbarItem>

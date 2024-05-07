@@ -1,12 +1,19 @@
 import {GoArrowRight} from "react-icons/go";
-import AboutUs1 from "/public/images/aboutUs/aboutUs1.png"
-import AboutUs2 from "/public/images/aboutUs/aboutUs2.png"
-import AboutUs3 from "/public/images/aboutUs/aboutUs3.png"
+import AboutUs1 from "/public/images/aboutUs/aboutUs1.webp"
+import AboutUs2 from "/public/images/aboutUs/aboutUs2.webp"
+import AboutUs3 from "/public/images/aboutUs/aboutUs3.webp"
 import Eye from "/public/images/aboutUs/icons/Eye.png"
 import Target from "/public/images/aboutUs/icons/Target.png"
 import {motion} from "framer-motion";
+import {useEffect} from "react";
+import aos from 'aos'
+import "aos/dist/aos.css"
 
 export default function AboutUs(){
+    useEffect(()=>{
+        aos.init();
+    },[])
+
     return(
         <div className={'text-center px-[25px] md:px-[50px] 2xl:px-[125px] py-[35px] md:py-[80px]'}>
             <span className={'text-[24px]'}>About us</span><br/>
@@ -14,10 +21,10 @@ export default function AboutUs(){
             <div className="flex justify-between mt-[35px] md:mt-[80px]">
                 <div className={'hidden w-[620px] h-[522px] lg:flex justify-between'}>
                     <div className={'relative'}>
-                        <img src={AboutUs1} alt="" className={'w-[302px] h-[346px]'}/>
-                        <img src={AboutUs2} alt="" className={'w-[302px] h-[160px] absolute bottom-0'}/>
+                        <img data-aos="zoom-in-up" src={AboutUs1} alt="" className={'w-[302px] h-[346px]'}/>
+                        <img data-aos="zoom-in-up" src={AboutUs2} alt="" className={'w-[302px] h-[160px] absolute bottom-0'}/>
                     </div>
-                    <div><img src={AboutUs3} alt="" className={'w-[302px] h-full'}/></div>
+                    <div><img data-aos="zoom-in-up" src={AboutUs3} alt="" className={'w-[302px] h-full'}/></div>
                 </div>
                 <div
                     className={'w-[620px] lg:h-[522px] text-left text-[18px] sm:text-[20px] grid grid-cols-1 gap-[20px] md:gap-[35px] content-between mx-auto justify-center'}>

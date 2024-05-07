@@ -1,5 +1,5 @@
-import React from "react";
-import Logo from "/public/images/logo/Logo_Navytech.png"
+
+import Logo from "/public/images/logo/Logo_Navytech.webp"
 
 export default function Footer(){
     return (
@@ -16,13 +16,13 @@ export default function Footer(){
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                     <div>
-                            <h2 className="mb-6 text-sm font-semibold uppercase">Resources</h2>
+                            <h2 className="mb-6 text-sm font-semibold uppercase">Partners</h2>
                             <ul className="font-medium">
                                 <li className="mb-4">
-                                    <a href="#" className="hover:underline">Flowbite</a>
+                                    <a href="#" className="hover:underline">AKA-Tech</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="hover:underline">Tailwind CSS</a>
+                                    <a href="#" className="hover:underline">Materialic</a>
                                 </li>
                             </ul>
                         </div>
@@ -55,7 +55,7 @@ export default function Footer(){
                 <hr className="my-6 border-white sm:mx-auto lg:my-8"/>
                 <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-white sm:text-center">© 2023 <a
-              href="https://flowbite.com/" className="hover:underline">Flowbite™</a>. All Rights Reserved.
+              href="#" className="hover:underline">Navytech™</a>. All Rights Reserved.
           </span>
                     <div className="flex mt-4 sm:justify-center sm:mt-0">
                         <a href="#" className="text-white hover:text-white">

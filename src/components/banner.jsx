@@ -1,5 +1,5 @@
 import { FaPhoneAlt } from "react-icons/fa";
-import BannerImage from "/public/images/banner/navytech_banner.png"
+import BannerImage from "/public/images/banner/navytech_banner.webp"
 import {motion, useMotionValue, useTransform , animate} from "framer-motion";
 import {useEffect} from "react";
 import Projects from "./projects.jsx";
@@ -19,7 +19,7 @@ export default function Banner(){
     return(
         <div className={'pt-[10px] bg-[#000816] text-white pb-[80px]'}>
             <div className={'flex flex-col lg:flex-row items-center px-[25px] md:px-[50px] 2xl:px-[125px] justify-between'}>
-                <div className={'lg:w-[670px] 2xl:h-[531px]'}>
+                <div className={'lg:w-[670px] 2xl:h-[531px] mx-auto'}>
                     <motion.h1 initial={{x:-1000}} animate={{x:0}} transition={{duration:1 , ease:"easeOut"}} className={'font-medium text-[40px] sm:text-[50px] 2xl:text-[64px]'}>#1 Worldwide Digital Solution Agency</motion.h1>
                     <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:2 , ease:"easeInOut"}} className={'text-[18px] 2xl:text-[20px] mt-[15px] mb-[25px]'}>Revolutionize your global digital strategy with the #1 Worldwide Digital Solution Agency
                         , pioneering innovative solutions for unparallaled success.</motion.p>
