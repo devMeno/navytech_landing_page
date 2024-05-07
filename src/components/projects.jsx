@@ -11,7 +11,7 @@ const Projects = () => {
         return controls.stop
     }, [])
 
-    return <motion.span>{rounded}</motion.span>
+    return <><motion.span>{rounded}</motion.span><span>K</span></>
 };
 
 export default Projects;

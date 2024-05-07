@@ -5,6 +5,7 @@ import {useEffect} from "react";
 import Projects from "./projects.jsx";
 import Years from "./years.jsx";
 import Clients from "./clients.jsx";
+import BannerNumbers from "./bannerNumbers.jsx";
 
 export default function Banner(){
     const count = useMotionValue(0);
@@ -28,18 +29,15 @@ export default function Banner(){
                         <span className={'inline-block'}><span className={'text-[20px] 2xl:text-[24px] flex items-center mx-auto'}><FaPhoneAlt className={'w-34px] h-[34px] mr-[10px]'}/>Book a call</span></span>
                     </button>
                     <div className="grid gap-4 grid-cols-1 sm:grid-cols-3 lg:w-11/12 2xl:w-full">
-                        <div className={'h-[90px] 2xl:h-[103px] bg-[#4d4c4b] rounded-[16px] text-[14px] text-center pt-3'}>
-                            <h1 className={'text-[28px] 2xl:text-[36px] font-semibold'}><Projects/>K+</h1>
-                            Project completed
-                        </div>
-                        <div className={'h-[90px] 2xl:h-[103px] bg-[#4d4c4b] rounded-[16px] text-[14px] text-center pt-3'}>
-                            <h1 className={'text-[28px] 2xl:text-[36px] font-semibold'}><Years/>+</h1>
-                            Years of experience
-                        </div>
-                        <div className={'h-[90px] 2xl:h-[103px] bg-[#4d4c4b] rounded-[16px] text-[14px] text-center pt-3'}>
-                            <h1 className={'text-[28px] 2xl:text-[36px] font-semibold'}><Clients/>+</h1>
-                            Clients worldwide
-                        </div>
+                        <BannerNumbers text={'Project completed'}>
+                            <Projects/>
+                        </BannerNumbers>
+                        <BannerNumbers text={'Years of experience'}>
+                            <Years/>
+                        </BannerNumbers>
+                        <BannerNumbers text={'Clients worldwide'}>
+                            <Clients/>
+                        </BannerNumbers>
                     </div>
                 </div>
                 <motion.div initial={{x:1000}} animate={{x:0}} transition={{duration:1 , ease:"easeOut"}} className={'mt-[60px] lg:mt-0 mx-auto justify-center'}>

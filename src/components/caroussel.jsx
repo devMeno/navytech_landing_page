@@ -4,7 +4,7 @@ import { Carousel } from 'primereact/carousel';
 import { PiQuotesDuotone } from "react-icons/pi";
 import {LiaStarSolid} from "react-icons/lia";
 import {ProductService} from "./testimonials/testimonials.jsx";
-import Elizabeth from "/public/images/testimonials/pexels-elizabeth-ferreira-20846828.webp"
+import Elizabeth from "/public/images/testimonials/Ellipse 1.webp"
 
 export default function ResponsiveDemo() {
     const [products, setProducts] = useState([]);
