@@ -2,36 +2,36 @@ export const ProductService = {
     getProductsData() {
         return [
             {
-                name: 'Michael Wang',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias cum, deleniti esse est expedita nam obcaecati omnis provident quas qui, repellendus sapiente sed, similique suscipit vel vitae. Minus, voluptate!'
+                name: 'Astrid Brow',
+                text: 'Navytech provided top-notch service and expertise in developing our website. Their team\'s professionalism and attention to detail ensured a smooth and successful project. Highly recommended!'
             },
             {
-                name: 'Michael Wang',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias cum, deleniti esse est expedita nam obcaecati omnis provident quas qui, repellendus sapiente sed, similique suscipit vel vitae. Minus, voluptate!'
+                name: 'Mich Wang',
+                text: 'We couldn\'t be happier with the results from Navytech! Their team\'s expertise and dedication to delivering a high-quality website truly set them apart. Thank you for an outstanding job!'
             },
             {
-                name: 'Michael Wang',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias cum, deleniti esse est expedita nam obcaecati omnis provident quas qui, repellendus sapiente sed, similique suscipit vel vitae. Minus, voluptate!'
+                name: 'Michael Josh',
+                text: 'Navytech exceeded our expectations with their exceptional web development services. Their team\'s creativity and technical skills resulted in a website that perfectly represents our brand. 10/10 would recommend!'
             },
             {
-                name: 'Michael Wang',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias cum, deleniti esse est expedita nam obcaecati omnis provident quas qui, repellendus sapiente sed, similique suscipit vel vitae. Minus, voluptate!'
+                name: 'John Doe',
+                text: 'Working with Navytech was a fantastic experience! Their team\'s professionalism and commitment to client satisfaction made the entire process enjoyable. We\'re thrilled with our new website!'
             },
             {
-                name: 'Michael Wang',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias cum, deleniti esse est expedita nam obcaecati omnis provident quas qui, repellendus sapiente sed, similique suscipit vel vitae. Minus, voluptate!'
+                name: 'Juliana Wong',
+                text: 'Navytech delivered exceptional results on our project. Their attention to detail and dedication to providing top-quality service are unmatched. We\'re grateful for their expertise and highly recommend them!'
             },
             {
-                name: 'Michael Wang',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias cum, deleniti esse est expedita nam obcaecati omnis provident quas qui, repellendus sapiente sed, similique suscipit vel vitae. Minus, voluptate!'
+                name: 'Nathan Wodie',
+                text: 'We chose Navytech for our web development needs, and they didn\'t disappoint! Their team\'s expertise and creativity resulted in a website that exceeded our expectations. Thank you, Navytech!'
             },
             {
-                name: 'Michael Wang',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias cum, deleniti esse est expedita nam obcaecati omnis provident quas qui, repellendus sapiente sed, similique suscipit vel vitae. Minus, voluptate!'
+                name: 'Doups Gado',
+                text: 'Navytech is the best choice for web development! Their team\'s professionalism and dedication to delivering outstanding results make them stand out from the rest. We\'re extremely satisfied with our experience.'
             },
             {
-                name: 'Michael Wang',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias cum, deleniti esse est expedita nam obcaecati omnis provident quas qui, repellendus sapiente sed, similique suscipit vel vitae. Minus, voluptate!'
+                name: 'Noukou Ari',
+                text: 'Choosing Navytech for our project was the best decision we made! Their team\'s expertise and attention to detail ensured a smooth and successful web development process. We\'re thrilled with the outcome!'
             },
         ];
     },

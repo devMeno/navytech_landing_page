@@ -22,20 +22,20 @@ export default function AboutUs(){
                 <div
                     className={'w-[620px] lg:h-[522px] text-left text-[18px] sm:text-[20px] grid grid-cols-1 gap-[20px] md:gap-[35px] content-between mx-auto justify-center'}>
                     <span>
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
+                          We stand out through our commitment to excellence and innovation. With a passionate team and tailor-made solutions, we craft exceptional digital experiences to propel our clients to online success.
                     </span>
                     <div className="flex justify-between">
                         <img src={Eye} alt="" className={'w-[50px] md:w-[80px] h-[50px] md:h-[80px]'}/>
                         <div className={'w-[524px]'}>
                             <span className={'font-semibold text-[25px] sm:text-[32px]'}>Our Vision</span><br/>
-                            <span className={'text-[18px] sm:text-[20px]'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque cupiditate delectus .</span>
+                            <span className={'text-[18px] sm:text-[20px]'}>Shaping the digital landscape through innovation and meaningful connections.</span>
                         </div>
                     </div>
                     <div className="flex justify-between">
                         <img src={Target} alt="" className={'w-[50px] md:w-[80px] h-[50px] md:h-[80px]'}/>
                         <div className={'w-[524px]'}>
                             <span className={'font-semibold text-[25px] sm:text-[32px]'}>Our Mission</span><br/>
-                            <span className={'text-[18px] sm:text-[20px]'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque cupiditate delectus .</span>
+                            <span className={'text-[18px] sm:text-[20px]'}>Transforming ideas into digital reality to empower businesses and enhance their online presence.</span>
                         </div>
                     </div>
                     <div className={'w-[200px] md:w-[323px] mx-auto 2xl:ml-0'}>

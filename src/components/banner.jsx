@@ -28,15 +28,15 @@ export default function Banner(){
                         <span className={'inline-block'}><span className={'text-[20px] 2xl:text-[24px] flex items-center mx-auto'}><FaPhoneAlt className={'w-34px] h-[34px] mr-[10px]'}/>Book a call</span></span>
                     </button>
                     <div className="grid gap-4 grid-cols-1 sm:grid-cols-3 lg:w-11/12 2xl:w-full">
-                        <div className={'h-[90px] 2xl:h-[103px] bg-[#D9D9D9] rounded-[16px] text-[14px] text-center pt-3'}>
+                        <div className={'h-[90px] 2xl:h-[103px] bg-[#4d4c4b] rounded-[16px] text-[14px] text-center pt-3'}>
                             <h1 className={'text-[28px] 2xl:text-[36px] font-semibold'}><Projects/>K+</h1>
                             Project completed
                         </div>
-                        <div className={'h-[90px] 2xl:h-[103px] bg-[#D9D9D9] rounded-[16px] text-[14px] text-center pt-3'}>
+                        <div className={'h-[90px] 2xl:h-[103px] bg-[#4d4c4b] rounded-[16px] text-[14px] text-center pt-3'}>
                             <h1 className={'text-[28px] 2xl:text-[36px] font-semibold'}><Years/>+</h1>
                             Years of experience
                         </div>
-                        <div className={'h-[90px] 2xl:h-[103px] bg-[#D9D9D9] rounded-[16px] text-[14px] text-center pt-3'}>
+                        <div className={'h-[90px] 2xl:h-[103px] bg-[#4d4c4b] rounded-[16px] text-[14px] text-center pt-3'}>
                             <h1 className={'text-[28px] 2xl:text-[36px] font-semibold'}><Clients/>+</h1>
                             Clients worldwide
                         </div>
